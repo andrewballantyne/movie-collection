@@ -1,18 +1,30 @@
 import React, { PureComponent } from 'react';
-import PropTypes from 'prop-types';
+
+import { VerticallyCenter } from '/components';
+import { singleMovieProp } from '/prop_types/movie';
+import { MovieContainer, MovieImage, MovieName } from './styles';
 
 class Movie extends PureComponent {
   static propTypes = {
-    data: PropTypes.string.isRequired,
+    data: singleMovieProp.isRequired,
   };
 
   render() {
     const { data } = this.props;
 
     return (
-      <div>
-        {data.name}
-      </div>
+      <MovieContainer>
+        <MovieImage>
+          <VerticallyCenter>
+            No Image
+          </VerticallyCenter>
+        </MovieImage>
+        <MovieName>
+          <VerticallyCenter>
+            {data.name}
+          </VerticallyCenter>
+        </MovieName>
+      </MovieContainer>
     );
   }
 }
