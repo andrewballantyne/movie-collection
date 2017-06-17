@@ -1,11 +1,27 @@
 import styled from 'styled-components';
 
+export const Banner = styled.div`
+  background-color: #ff0000;
+  border-radius: 10px;
+  bottom: 0;
+  color: white;
+  left: 0;
+  height: 18px;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: rotate(30deg);
+  width: 75%;
+`;
+
 export const MovieContainer = styled.div`
-  border: 1px solid #ccc;
+  border: 1px solid #aaa;
   border-radius: 5px;
   display: inline-block;
   height: 300px;
   margin: 10px;
+  opacity: ${({ fade }) => fade ? 0.5 : 1};
   overflow: hidden;
   position: relative;
   text-align: center;

@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react';
 
 import { VerticallyCenter } from '/components';
 import { singleMovieProp } from '/prop_types/movie';
-import { MovieContainer, MovieImage, MovieName } from './styles';
+import { Banner, MovieContainer, MovieImage, MovieName } from './styles';
 
 class Movie extends PureComponent {
   static propTypes = {
@@ -13,8 +13,9 @@ class Movie extends PureComponent {
     const { data } = this.props;
 
     return (
-      <MovieContainer>
+      <MovieContainer fade={data.borrowed}>
         <MovieImage>
+          {data.borrowed && <Banner>Borrowed</Banner>}
           <VerticallyCenter>
             No Image
           </VerticallyCenter>
