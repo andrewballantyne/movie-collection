@@ -1,5 +1,25 @@
 const creationTime = 1483228800000; // 2017-01-01 GMT
 export const MOVIE_LIST = [{
+  id: "x_men-logan",
+  series: "X-Men",
+  name: "Logan",
+  borrowed: false,
+  wanted: false,
+  addDate: 1497657600000
+}, {
+  id: "john_wick-john_wick_2",
+  series: "John Wick",
+  name: "John Wick 2",
+  borrowed: false,
+  wanted: false,
+  addDate: 1497657600000
+}, {
+  id: "hacksaw_ridge",
+  name: "Hacksaw Ridge",
+  borrowed: false,
+  wanted: false,
+  addDate: 1497657600000
+}, {
   id: "2012",
   name: "2012",
   borrowed: false,
@@ -526,6 +546,7 @@ export const MOVIE_LIST = [{
   addDate: creationTime
 }, {
   id: "john_wick",
+  series: "John Wick",
   name: "John Wick",
   borrowed: false,
   wanted: false,
