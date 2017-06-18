@@ -37,7 +37,8 @@ export const MOVIE_LIST = [{
   name: "Skyfall",
   borrowed: false,
   wanted: false,
-  addDate: creationTime
+  addDate: creationTime,
+  cover: 'Skyfall.jpg',
 }, {
   id: "10_000_bc",
   name: "10,000 BC",
@@ -121,10 +122,13 @@ export const MOVIE_LIST = [{
   name: "Bangkok Dangerous",
   borrowed: false,
   wanted: false,
-  addDate: creationTime
+  addDate: creationTime,
+  cover: 'BangkokDangerous.jpg',
 }, {
-  id: "batman_v_superman__dawn_of_justice",
+  id: "dc_eu-batman_v_superman__dawn_of_justice",
   name: "Batman v Superman: Dawn of Justice",
+  series: 'DC EU',
+  seriesWeight: 2,
   borrowed: false,
   wanted: false,
   addDate: creationTime
@@ -151,7 +155,8 @@ export const MOVIE_LIST = [{
   name: "Bolt",
   borrowed: false,
   wanted: false,
-  addDate: creationTime
+  addDate: creationTime,
+  cover: 'Bolt.jpg',
 }, {
   id: "brave",
   name: "Brave",
@@ -165,14 +170,19 @@ export const MOVIE_LIST = [{
   wanted: false,
   addDate: creationTime
 }, {
-  id: "cars",
+  id: "cars-cars",
   name: "Cars",
+  series: 'Cars',
+  seriesWeight: 1,
   borrowed: false,
   wanted: false,
-  addDate: creationTime
+  addDate: creationTime,
+  cover: 'Cars.jpg',
 }, {
-  id: "cars__mater_s_tall_tales",
+  id: "cars-cars__mater_s_tall_tales",
   name: "Cars: Mater's Tall Tales",
+  series: 'Cars',
+  seriesWeight: 2,
   borrowed: false,
   wanted: false,
   addDate: creationTime
@@ -275,13 +285,15 @@ export const MOVIE_LIST = [{
   name: "Disturbia",
   borrowed: false,
   wanted: false,
-  addDate: creationTime
+  addDate: creationTime,
+  cover: 'Disturbia.jpg'
 }, {
   id: "dracula_untold",
   name: "Dracula Untold",
   borrowed: false,
   wanted: false,
-  addDate: creationTime
+  addDate: creationTime,
+  cover: 'DraculaUntold.jpg',
 }, {
   id: "eagle_eye",
   name: "Eagle Eye",
@@ -371,7 +383,8 @@ export const MOVIE_LIST = [{
   name: "From Paris With Love",
   borrowed: false,
   wanted: false,
-  addDate: creationTime
+  addDate: creationTime,
+  cover: 'FromParisWithLove.jpg',
 }, {
   id: "frozen",
   name: "Frozen",
@@ -389,7 +402,8 @@ export const MOVIE_LIST = [{
   name: "Gangster Squad",
   borrowed: false,
   wanted: false,
-  addDate: creationTime
+  addDate: creationTime,
+  cover: 'GangsterSquad.jpg',
 }, {
   id: "gnomeo___juliet",
   name: "Gnomeo & Juliet",
@@ -401,15 +415,17 @@ export const MOVIE_LIST = [{
   name: "Gran Torino",
   borrowed: false,
   wanted: false,
-  addDate: creationTime
+  addDate: creationTime,
+  cover: 'GranTorino.jpg',
 }, {
-  id: "hallow_man-hallow_man___hallow_man_2",
-  series: "Hallow Man",
+  id: "hollow_man-hollow_man___hollow_man_2",
+  series: "Hollow Man",
   seriesWeight: 1,
-  name: "Hallow Man / Hallow Man 2",
+  name: "Hollow Man / Hollow Man 2",
   borrowed: false,
   wanted: false,
-  addDate: creationTime
+  addDate: creationTime,
+  cover: 'HollowMan1and2.jpg',
 }, {
   id: "hancock",
   name: "Hancock",
@@ -645,102 +661,104 @@ export const MOVIE_LIST = [{
   wanted: false,
   addDate: creationTime
 }, {
-  id: "man_of_steel",
+  id: "dc_eu-man_of_steel",
   name: "Man of Steel",
+  series: 'DC EU',
+  seriesWeight: 1,
   borrowed: false,
   wanted: false,
-  addDate: creationTime
+  addDate: creationTime,
 }, {
-  id: "marvel-iron_man",
-  series: "Marvel",
+  id: "marvel_eu-iron_man",
+  series: 'Marvel EU',
   seriesWeight: 1,
   name: "Iron Man",
   borrowed: false,
   wanted: false,
   addDate: creationTime
 }, {
-  id: "marvel-the_incredible_hulk",
-  series: "Marvel",
+  id: "marvel_eu-the_incredible_hulk",
+  series: 'Marvel EU',
   seriesWeight: 2,
   name: "The Incredible Hulk",
   borrowed: false,
   wanted: false,
   addDate: creationTime
 }, {
-  id: "marvel-iron_man_2",
-  series: "Marvel",
+  id: "marvel_eu-iron_man_2",
+  series: 'Marvel EU',
   seriesWeight: 3,
   name: "Iron Man 2",
   borrowed: false,
   wanted: false,
   addDate: creationTime
 }, {
-  id: "marvel-thor",
-  series: "Marvel",
+  id: "marvel_eu-thor",
+  series: 'Marvel EU',
   seriesWeight: 4,
   name: "Thor",
   borrowed: false,
   wanted: false,
   addDate: creationTime
 }, {
-  id: "marvel-catain_america__the_first_avenger",
-  series: "Marvel",
+  id: "marvel_eu-catain_america__the_first_avenger",
+  series: 'Marvel EU',
   seriesWeight: 5,
   name: "Catain America: The First Avenger",
   borrowed: false,
   wanted: false,
   addDate: creationTime
 }, {
-  id: "marvel-avengers",
-  series: "Marvel",
+  id: "marvel_eu-avengers",
+  series: 'Marvel EU',
   seriesWeight: 6,
   name: "Avengers",
   borrowed: false,
   wanted: false,
   addDate: creationTime
 }, {
-  id: "marvel-iron_man_3",
-  series: "Marvel",
+  id: "marvel_eu-iron_man_3",
+  series: 'Marvel EU',
   seriesWeight: 7,
   name: "Iron Man 3",
   borrowed: false,
   wanted: false,
   addDate: creationTime
 }, {
-  id: "marvel-thor__the_dark_world",
-  series: "Marvel",
+  id: "marvel_eu-thor__the_dark_world",
+  series: 'Marvel EU',
   seriesWeight: 8,
   name: "Thor: The Dark World",
   borrowed: false,
   wanted: false,
   addDate: creationTime
 }, {
-  id: "marvel-catain_america__the_winter_soldier",
-  series: "Marvel",
+  id: "marvel_eu-catain_america__the_winter_soldier",
+  series: 'Marvel EU',
   seriesWeight: 9,
   name: "Catain America: The Winter Soldier",
   borrowed: false,
   wanted: false,
   addDate: creationTime
 }, {
-  id: "marvel-guardians_of_the_galaxy",
-  series: "Marvel",
+  id: "marvel_eu-guardians_of_the_galaxy",
+  series: 'Marvel EU',
   seriesWeight: 10,
   name: "Guardians of the Galaxy",
   borrowed: false,
   wanted: false,
   addDate: creationTime
 }, {
-  id: "marvel-the_avengers__age_of_ultron",
-  series: "Marvel",
+  id: "marvel_eu-the_avengers__age_of_ultron",
+  series: 'Marvel EU',
   seriesWeight: 11,
   name: "The Avengers: Age of Ultron",
   borrowed: false,
   wanted: false,
   addDate: creationTime
 }, {
-  id: "marvel-captain_america__civil_war",
-  series: "Marvel",
+  id: "marvel_eu-captain_america__civil_war",
+  series: 'Marvel EU',
   seriesWeight: 12,
   name: "Captain America: Civil War",
   borrowed: false,
