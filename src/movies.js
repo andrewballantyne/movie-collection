@@ -5,20 +5,23 @@ export const MOVIE_LIST = [{
   name: "Logan",
   borrowed: false,
   wanted: false,
-  addDate: 1497657600000
+  addDate: 1497657600000,
+  cover: 'Logan.jpg',
 }, {
   id: "john_wick-john_wick_2",
   series: "John Wick",
   name: "John Wick 2",
   borrowed: false,
   wanted: false,
-  addDate: 1497657600000
+  addDate: 1497657600000,
+  cover: 'JohnWick2.jpg',
 }, {
   id: "hacksaw_ridge",
   name: "Hacksaw Ridge",
   borrowed: false,
   wanted: false,
-  addDate: 1497657600000
+  addDate: 1497657600000,
+  cover: 'HacksawRidge.jpg',
 }, {
   id: "2012",
   name: "2012",

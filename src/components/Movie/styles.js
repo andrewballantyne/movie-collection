@@ -34,11 +34,16 @@ export const MovieImage = styled.div`
   color: #ccc;
   height: 75%;
   left: 0;
+  overflow: hidden;
   position: absolute;
   letter-spacing: 2px;
   text-transform: uppercase;
   top: 0;
   width: 100%;
+  
+  img {
+    width: 100%;
+  }
 `;
 
 export const MovieName = styled.div`

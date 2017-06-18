@@ -6,6 +6,7 @@ export const singleMovieProp = PropTypes.shape({
   borrowed: PropTypes.bool.isRequired,
   wanted: PropTypes.bool.isRequired,
   addDate: PropTypes.number.isRequired, // timestamp
+  image: PropTypes.string,
 });
 
 export const multiMovieProp = PropTypes.arrayOf(singleMovieProp);

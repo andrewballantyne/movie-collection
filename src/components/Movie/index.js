@@ -2,6 +2,7 @@ import React, { PureComponent } from 'react';
 
 import { VerticallyCenter } from '/components';
 import { singleMovieProp } from '/prop_types/movie';
+import { buildImagePath } from '/utils/image';
 import { Banner, MovieContainer, MovieImage, MovieName } from './styles';
 
 class Movie extends PureComponent {
@@ -17,7 +18,10 @@ class Movie extends PureComponent {
         <MovieImage>
           {data.borrowed && <Banner>Borrowed</Banner>}
           <VerticallyCenter>
-            No Image
+            {data.cover
+              ? <img alt={`Cover for ${data.name}`} src={buildImagePath(data.cover)} />
+              : 'No Image'
+            }
           </VerticallyCenter>
         </MovieImage>
         <MovieName>
