@@ -32,7 +32,7 @@ export const MOVIE_LIST = [{
   id: "007-skyfall",
   series: "007",
   name: "Skyfall",
-  borrowed: true,
+  borrowed: false,
   wanted: false,
   addDate: creationTime
 }, {
@@ -110,7 +110,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "bangkok_dangerous",
   name: "Bangkok Dangerous",
-  borrowed: true,
+  borrowed: false,
   wanted: false,
   addDate: creationTime
 }, {
@@ -140,7 +140,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "bolt",
   name: "Bolt",
-  borrowed: true,
+  borrowed: false,
   wanted: false,
   addDate: creationTime
 }, {
@@ -158,7 +158,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "cars",
   name: "Cars",
-  borrowed: true,
+  borrowed: false,
   wanted: false,
   addDate: creationTime
 }, {
@@ -256,13 +256,13 @@ export const MOVIE_LIST = [{
 }, {
   id: "disturbia",
   name: "Disturbia",
-  borrowed: true,
+  borrowed: false,
   wanted: false,
   addDate: creationTime
 }, {
   id: "dracula_untold",
   name: "Dracula Untold",
-  borrowed: true,
+  borrowed: false,
   wanted: false,
   addDate: creationTime
 }, {
@@ -346,7 +346,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "from_paris_with_love",
   name: "From Paris With Love",
-  borrowed: true,
+  borrowed: false,
   wanted: false,
   addDate: creationTime
 }, {
@@ -364,7 +364,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "gangster_squad",
   name: "Gangster Squad",
-  borrowed: true,
+  borrowed: false,
   wanted: false,
   addDate: creationTime
 }, {
@@ -376,14 +376,14 @@ export const MOVIE_LIST = [{
 }, {
   id: "gran_torino",
   name: "Gran Torino",
-  borrowed: true,
+  borrowed: false,
   wanted: false,
   addDate: creationTime
 }, {
   id: "hallow_man-hallow_man___hallow_man_2",
   series: "Hallow Man",
   name: "Hallow Man / Hallow Man 2",
-  borrowed: true,
+  borrowed: false,
   wanted: false,
   addDate: creationTime
 }, {
