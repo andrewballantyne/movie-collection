@@ -2,6 +2,7 @@ const creationTime = 1483228800000; // 2017-01-01 GMT
 export const MOVIE_LIST = [{
   id: "x_men-logan",
   series: "X-Men",
+  seriesWeight: 4,
   name: "Logan",
   borrowed: false,
   wanted: false,
@@ -10,6 +11,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "john_wick-john_wick_2",
   series: "John Wick",
+  seriesWeight: 2,
   name: "John Wick 2",
   borrowed: false,
   wanted: false,
@@ -31,6 +33,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "007-skyfall",
   series: "007",
+  seriesWeight: 23,
   name: "Skyfall",
   borrowed: false,
   wanted: false,
@@ -56,6 +59,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "300-300",
   series: "300",
+  seriesWeight: 1,
   name: "300",
   borrowed: false,
   wanted: false,
@@ -63,6 +67,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "300-300__rise_of_an_empire",
   series: "300",
+  seriesWeight: 2,
   name: "300: Rise of an Empire",
   borrowed: false,
   wanted: false,
@@ -76,6 +81,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "alvin___the_chipmunks-alvin___the_chipmunks",
   series: "Alvin & The Chipmunks",
+  seriesWeight: 1,
   name: "Alvin & The Chipmunks",
   borrowed: false,
   wanted: false,
@@ -83,6 +89,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "alvin___the_chipmunks-alvin___the_chipmunks__the_squeakquel",
   series: "Alvin & The Chipmunks",
+  seriesWeight: 2,
   name: "Alvin & The Chipmunks: The Squeakquel",
   borrowed: false,
   wanted: false,
@@ -96,6 +103,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "avp-avp",
   series: "AvP",
+  seriesWeight: 1,
   name: "AvP",
   borrowed: false,
   wanted: false,
@@ -103,6 +111,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "avp-avp__requiem",
   series: "AvP",
+  seriesWeight: 2,
   name: "AvP: Requiem",
   borrowed: false,
   wanted: false,
@@ -176,6 +185,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "cloudy_with_a_chance_of_meatballs-cloudy_with_a_chance_of_meatballs",
   series: "Cloudy with a Chance Of Meatballs",
+  seriesWeight: 1,
   name: "Cloudy With A Chance of Meatballs",
   borrowed: false,
   wanted: false,
@@ -183,6 +193,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "cloudy_with_a_chance_of_meatballs-cloudy_with_a_chance_of_meatballs_2",
   series: "Cloudy with a Chance Of Meatballs",
+  seriesWeight: 2,
   name: "Cloudy With A Chance of Meatballs 2",
   borrowed: false,
   wanted: false,
@@ -214,6 +225,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "despicable_me-despicable_me",
   series: "Despicable Me",
+  seriesWeight: 1,
   name: "Despicable Me",
   borrowed: true,
   wanted: false,
@@ -221,6 +233,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "despicable_me-despicable_me_2",
   series: "Despicable Me",
+  seriesWeight: 2,
   name: "Despicable Me 2",
   borrowed: true,
   wanted: false,
@@ -228,6 +241,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "die_hard-die_hard",
   series: "Die Hard",
+  seriesWeight: 1,
   name: "Die Hard",
   borrowed: false,
   wanted: false,
@@ -235,6 +249,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "die_hard-die_hard_2__die_harder",
   series: "Die Hard",
+  seriesWeight: 2,
   name: "Die Hard 2: Die Harder",
   borrowed: false,
   wanted: false,
@@ -242,6 +257,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "die_hard-die_hard_with_a_vengeance",
   series: "Die Hard",
+  seriesWeight: 3,
   name: "Die Hard with a Vengeance",
   borrowed: false,
   wanted: false,
@@ -249,6 +265,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "die_hard-live_free_or_die_hard",
   series: "Die Hard",
+  seriesWeight: 4,
   name: "Live Free or Die Hard",
   borrowed: false,
   wanted: false,
@@ -298,6 +315,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "fast___furious-the_fast___the_furious",
   series: "Fast & Furious",
+  seriesWeight: 1,
   name: "The Fast & The Furious",
   borrowed: false,
   wanted: false,
@@ -305,6 +323,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "fast___furious-2_fast_2_furious",
   series: "Fast & Furious",
+  seriesWeight: 2,
   name: "2 Fast 2 Furious",
   borrowed: false,
   wanted: false,
@@ -312,6 +331,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "fast___furious-the_fast___the_furious__tokyo_drift",
   series: "Fast & Furious",
+  seriesWeight: 3,
   name: "The Fast & The Furious: Tokyo Drift",
   borrowed: false,
   wanted: false,
@@ -319,6 +339,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "fast___furious-fast___furious",
   series: "Fast & Furious",
+  seriesWeight: 4,
   name: "Fast & Furious",
   borrowed: false,
   wanted: false,
@@ -326,6 +347,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "fast___furious-fast_five",
   series: "Fast & Furious",
+  seriesWeight: 5,
   name: "Fast Five",
   borrowed: false,
   wanted: false,
@@ -333,6 +355,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "fast___furious-fast___furious_6",
   series: "Fast & Furious",
+  seriesWeight: 6,
   name: "Fast & Furious 6",
   borrowed: false,
   wanted: false,
@@ -382,6 +405,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "hallow_man-hallow_man___hallow_man_2",
   series: "Hallow Man",
+  seriesWeight: 1,
   name: "Hallow Man / Hallow Man 2",
   borrowed: false,
   wanted: false,
@@ -407,6 +431,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "hobbit-hobbit__an_unexpected_journey",
   series: "Hobbit",
+  seriesWeight: 1,
   name: "Hobbit: An Unexpected Journey",
   borrowed: false,
   wanted: false,
@@ -414,6 +439,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "hobbit-hobbit__the_desolation_of_smaug",
   series: "Hobbit",
+  seriesWeight: 2,
   name: "Hobbit: The Desolation of Smaug",
   borrowed: false,
   wanted: false,
@@ -421,6 +447,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "hobbit-hobbit__the_battle_of_the_five_armies",
   series: "Hobbit",
+  seriesWeight: 3,
   name: "Hobbit: The Battle of the Five Armies",
   borrowed: false,
   wanted: false,
@@ -440,6 +467,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "ice_age-ice_age",
   series: "Ice Age",
+  seriesWeight: 1,
   name: "Ice Age",
   borrowed: false,
   wanted: false,
@@ -447,6 +475,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "ice_age-ice_age__the_meltdown",
   series: "Ice Age",
+  seriesWeight: 2,
   name: "Ice Age: The Meltdown",
   borrowed: false,
   wanted: false,
@@ -454,6 +483,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "ice_age-ice_age__dawn_of_the_dinosaurs",
   series: "Ice Age",
+  seriesWeight: 3,
   name: "Ice Age: Dawn of the Dinosaurs",
   borrowed: false,
   wanted: false,
@@ -479,6 +509,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "indiana_jones-indiana_jones_and_the_kingdom_of_crystal_skull",
   series: "Indiana Jones",
+  seriesWeight: 4,
   name: "Indiana Jones And the Kingdom of Crystal Skull",
   borrowed: false,
   wanted: true,
@@ -522,6 +553,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "jason_bourne-the_bourne_identity",
   series: "Jason Bourne",
+  seriesWeight: 1,
   name: "The Bourne Identity",
   borrowed: false,
   wanted: true,
@@ -529,6 +561,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "jason_bourne-the_bourne_supremacy",
   series: "Jason Bourne",
+  seriesWeight: 2,
   name: "The Bourne Supremacy",
   borrowed: false,
   wanted: true,
@@ -536,6 +569,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "jason_bourne-the_bourne_ultimatum",
   series: "Jason Bourne",
+  seriesWeight: 3,
   name: "The Bourne Ultimatum",
   borrowed: false,
   wanted: true,
@@ -543,6 +577,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "jason_bourne-the_bourne_legacy",
   series: "Jason Bourne",
+  seriesWeight: 4,
   name: "The Bourne Legacy",
   borrowed: false,
   wanted: true,
@@ -550,6 +585,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "john_wick",
   series: "John Wick",
+  seriesWeight: 1,
   name: "John Wick",
   borrowed: false,
   wanted: false,
@@ -587,6 +623,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "lotr-lord_of_the_rings__trilogy_",
   series: "LotR",
+  seriesWeight: 1,
   name: "Lord of the Rings (Trilogy)",
   borrowed: false,
   wanted: false,
@@ -594,6 +631,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "madagascar-madagascar",
   series: "Madagascar",
+  seriesWeight: 1,
   name: "Madagascar",
   borrowed: false,
   wanted: false,
@@ -601,6 +639,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "madagascar-madagascar_2__escape_africa",
   series: "Madagascar",
+  seriesWeight: 2,
   name: "Madagascar 2: Escape Africa",
   borrowed: false,
   wanted: false,
@@ -614,6 +653,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "marvel-iron_man",
   series: "Marvel",
+  seriesWeight: 1,
   name: "Iron Man",
   borrowed: false,
   wanted: false,
@@ -621,6 +661,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "marvel-the_incredible_hulk",
   series: "Marvel",
+  seriesWeight: 2,
   name: "The Incredible Hulk",
   borrowed: false,
   wanted: false,
@@ -628,6 +669,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "marvel-iron_man_2",
   series: "Marvel",
+  seriesWeight: 3,
   name: "Iron Man 2",
   borrowed: false,
   wanted: false,
@@ -635,6 +677,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "marvel-thor",
   series: "Marvel",
+  seriesWeight: 4,
   name: "Thor",
   borrowed: false,
   wanted: false,
@@ -642,6 +685,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "marvel-catain_america__the_first_avenger",
   series: "Marvel",
+  seriesWeight: 5,
   name: "Catain America: The First Avenger",
   borrowed: false,
   wanted: false,
@@ -649,6 +693,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "marvel-avengers",
   series: "Marvel",
+  seriesWeight: 6,
   name: "Avengers",
   borrowed: false,
   wanted: false,
@@ -656,6 +701,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "marvel-iron_man_3",
   series: "Marvel",
+  seriesWeight: 7,
   name: "Iron Man 3",
   borrowed: false,
   wanted: false,
@@ -663,6 +709,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "marvel-thor__the_dark_world",
   series: "Marvel",
+  seriesWeight: 8,
   name: "Thor: The Dark World",
   borrowed: false,
   wanted: false,
@@ -670,6 +717,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "marvel-catain_america__the_winter_soldier",
   series: "Marvel",
+  seriesWeight: 9,
   name: "Catain America: The Winter Soldier",
   borrowed: false,
   wanted: false,
@@ -677,6 +725,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "marvel-guardians_of_the_galaxy",
   series: "Marvel",
+  seriesWeight: 10,
   name: "Guardians of the Galaxy",
   borrowed: false,
   wanted: false,
@@ -684,6 +733,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "marvel-the_avengers__age_of_ultron",
   series: "Marvel",
+  seriesWeight: 11,
   name: "The Avengers: Age of Ultron",
   borrowed: false,
   wanted: false,
@@ -691,6 +741,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "marvel-captain_america__civil_war",
   series: "Marvel",
+  seriesWeight: 12,
   name: "Captain America: Civil War",
   borrowed: false,
   wanted: false,
@@ -698,6 +749,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "men_in_black-mib",
   series: "Men In Black",
+  seriesWeight: 1,
   name: "MiB",
   borrowed: false,
   wanted: false,
@@ -705,6 +757,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "men_in_black-mib_2",
   series: "Men In Black",
+  seriesWeight: 2,
   name: "MiB 2",
   borrowed: false,
   wanted: false,
@@ -712,6 +765,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "men_in_black-mib_3",
   series: "Men In Black",
+  seriesWeight: 3,
   name: "MiB 3",
   borrowed: false,
   wanted: false,
@@ -725,6 +779,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "national_treasure-national_treasure",
   series: "National Treasure",
+  seriesWeight: 1,
   name: "National Treasure",
   borrowed: false,
   wanted: false,
@@ -732,6 +787,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "national_treasure-national_treasure_2__the_book_of_secrets",
   series: "National Treasure",
+  seriesWeight: 2,
   name: "National Treasure 2: The Book of Secrets",
   borrowed: false,
   wanted: false,
@@ -763,6 +819,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "percy_jackson___the_olympians-percy_jackson___the_olympians__the_lightning_thief",
   series: "Percy Jackson & The Olympians",
+  seriesWeight: 1,
   name: "Percy Jackson & The Olympians: The Lightning Thief",
   borrowed: false,
   wanted: false,
@@ -770,6 +827,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "percy_jackson___the_olympians-percy_jackson___the_olympians__sea_of_monsters",
   series: "Percy Jackson & The Olympians",
+  seriesWeight: 2,
   name: "Percy Jackson & The Olympians: Sea of Monsters",
   borrowed: false,
   wanted: false,
@@ -777,6 +835,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "pirates_of_the_caribbean-pirates_of_the_caribbean__the_curse_of_the_black_pearl",
   series: "Pirates of the Caribbean",
+  seriesWeight: 1,
   name: "Pirates of the Caribbean: The Curse of the Black Pearl",
   borrowed: false,
   wanted: false,
@@ -784,6 +843,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "pirates_of_the_caribbean-pirates_of_the_caribbean__dead_man_s_chest",
   series: "Pirates of the Caribbean",
+  seriesWeight: 2,
   name: "Pirates of the Caribbean: Dead Man's Chest",
   borrowed: false,
   wanted: false,
@@ -791,6 +851,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "pirates_of_the_caribbean-pirates_of_the_caribbean__at_world_s_end",
   series: "Pirates of the Caribbean",
+  seriesWeight: 3,
   name: "Pirates of the Caribbean: At World's End",
   borrowed: false,
   wanted: false,
@@ -798,6 +859,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "pirates_of_the_caribbean-pirates_and_the_caribbean__on_stranger_tides",
   series: "Pirates of the Caribbean",
+  seriesWeight: 4,
   name: "Pirates and the Caribbean: On Stranger Tides",
   borrowed: false,
   wanted: false,
@@ -805,6 +867,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "pitch_perfect-pitch_perfect",
   series: "Pitch Perfect",
+  seriesWeight: 1,
   name: "Pitch Perfect",
   borrowed: false,
   wanted: false,
@@ -830,6 +893,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "rambo-first_blood",
   series: "Rambo",
+  seriesWeight: 1,
   name: "First Blood",
   borrowed: false,
   wanted: false,
@@ -837,6 +901,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "rambo-first_blood__part_ii",
   series: "Rambo",
+  seriesWeight: 2,
   name: "First Blood: Part II",
   borrowed: false,
   wanted: false,
@@ -844,6 +909,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "rambo-rambo_iii",
   series: "Rambo",
+  seriesWeight: 3,
   name: "Rambo III",
   borrowed: false,
   wanted: false,
@@ -851,6 +917,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "rambo-rambo",
   series: "Rambo",
+  seriesWeight: 4,
   name: "Rambo",
   borrowed: false,
   wanted: false,
@@ -864,6 +931,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "red-red",
   series: "Red",
+  seriesWeight: 1,
   name: "Red",
   borrowed: false,
   wanted: false,
@@ -871,6 +939,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "resident_evil-resident_evil",
   series: "Resident Evil",
+  seriesWeight: 1,
   name: "Resident Evil",
   borrowed: false,
   wanted: false,
@@ -878,6 +947,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "resident_evil-resident_evil__apocalypse",
   series: "Resident Evil",
+  seriesWeight: 2,
   name: "Resident Evil: Apocalypse",
   borrowed: false,
   wanted: false,
@@ -885,6 +955,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "resident_evil-resident_evil__extinction",
   series: "Resident Evil",
+  seriesWeight: 3,
   name: "Resident Evil: Extinction",
   borrowed: false,
   wanted: false,
@@ -892,6 +963,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "resident_evil-resident_evil__degeneration",
   series: "Resident Evil",
+  seriesWeight: 4,
   name: "Resident Evil: Degeneration",
   borrowed: false,
   wanted: false,
@@ -935,6 +1007,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "sherlock_holmes-sherlock_holmes",
   series: "Sherlock Holmes",
+  seriesWeight: 1,
   name: "Sherlock Holmes",
   borrowed: false,
   wanted: false,
@@ -942,6 +1015,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "sherlock_holmes-sherlock_holmes__a_game_of_shadows",
   series: "Sherlock Holmes",
+  seriesWeight: 2,
   name: "Sherlock Holmes: A Game of Shadows",
   borrowed: false,
   wanted: true,
@@ -967,6 +1041,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "shrek-shrek__the_whole_story____parts_1_4",
   series: "Shrek",
+  seriesWeight: 1,
   name: "Shrek (The Whole Story) - Parts 1-4",
   borrowed: false,
   wanted: false,
@@ -986,6 +1061,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "spiderman-spiderman",
   series: "Spiderman",
+  seriesWeight: 1,
   name: "Spiderman",
   borrowed: false,
   wanted: false,
@@ -993,6 +1069,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "spiderman-spiderman_2",
   series: "Spiderman",
+  seriesWeight: 2,
   name: "Spiderman 2",
   borrowed: false,
   wanted: false,
@@ -1000,6 +1077,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "spiderman-spiderman_3",
   series: "Spiderman",
+  seriesWeight: 3,
   name: "Spiderman 3",
   borrowed: false,
   wanted: false,
@@ -1007,6 +1085,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "star_trek__reboot_-star_trek",
   series: "Star Trek (Reboot)",
+  seriesWeight: 1,
   name: "Star Trek",
   borrowed: false,
   wanted: false,
@@ -1014,6 +1093,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "star_trek__reboot_-star_trek__into_darkness",
   series: "Star Trek (Reboot)",
+  seriesWeight: 2,
   name: "Star Trek: Into Darkness",
   borrowed: false,
   wanted: false,
@@ -1021,6 +1101,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "star_trek-star_trek_viii__first_contact",
   series: "Star Trek",
+  seriesWeight: 8,
   name: "Star Trek VIII: First Contact",
   borrowed: false,
   wanted: false,
@@ -1046,6 +1127,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "star_wars-star_wars__episodes_i__ii__iii_",
   series: "Star Wars",
+  seriesWeight: 1,
   name: "Star Wars [Episodes I, II, III]",
   borrowed: false,
   wanted: false,
@@ -1053,6 +1135,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "star_wars-star_wars__the_clone_wars",
   series: "Star Wars",
+  seriesWeight: 2.5,
   name: "Star Wars: The Clone Wars",
   borrowed: false,
   wanted: false,
@@ -1060,6 +1143,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "star_wars-star_wars__episodes_iv__v__vi_",
   series: "Star Wars",
+  seriesWeight: 4,
   name: "Star Wars [Episodes IV, V, VI]",
   borrowed: false,
   wanted: false,
@@ -1067,6 +1151,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "star_wars-star_wars__the_force_awakens",
   series: "Star Wars",
+  seriesWeight: 7,
   name: "Star Wars: The Force Awakens",
   borrowed: false,
   wanted: false,
@@ -1092,6 +1177,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "starship_troopers-starship_troopers",
   series: "Starship Troopers",
+  seriesWeight: 1,
   name: "Starship Troopers",
   borrowed: false,
   wanted: false,
@@ -1099,6 +1185,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "starship_troopers-starship_troopers_2__hero_of_the_federation",
   series: "Starship Troopers",
+  seriesWeight: 2,
   name: "Starship Troopers 2: Hero of the Federation",
   borrowed: false,
   wanted: false,
@@ -1106,6 +1193,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "starship_troopers-starship_troopers_3__marauder",
   series: "Starship Troopers",
+  seriesWeight: 3,
   name: "Starship Troopers 3: Marauder",
   borrowed: false,
   wanted: false,
@@ -1137,6 +1225,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "terminator-terminator_2__judgement_day",
   series: "Terminator",
+  seriesWeight: 2,
   name: "Terminator 2: Judgement Day",
   borrowed: false,
   wanted: false,
@@ -1144,6 +1233,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "terminator-terminator_3__rise_of_the_machines",
   series: "Terminator",
+  seriesWeight: 3,
   name: "Terminator 3: Rise of the Machines",
   borrowed: false,
   wanted: false,
@@ -1193,6 +1283,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "the_expendables-the_expendables",
   series: "The Expendables",
+  seriesWeight: 1,
   name: "The Expendables",
   borrowed: false,
   wanted: false,
@@ -1200,6 +1291,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "the_expendables-expendables_2",
   series: "The Expendables",
+  seriesWeight: 2,
   name: "Expendables 2",
   borrowed: false,
   wanted: false,
@@ -1273,6 +1365,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "the_punisher-the_punisher",
   series: "The Punisher",
+  seriesWeight: 1,
   name: "The Punisher",
   borrowed: false,
   wanted: false,
@@ -1280,6 +1373,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "the_punisher-punisher__war_zone",
   series: "The Punisher",
+  seriesWeight: 2,
   name: "Punisher: War Zone",
   borrowed: false,
   wanted: false,
@@ -1311,6 +1405,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "transformers-transformers",
   series: "Transformers",
+  seriesWeight: 1,
   name: "Transformers",
   borrowed: false,
   wanted: false,
@@ -1318,6 +1413,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "transformers-transformers__revenge_of_the_fallen",
   series: "Transformers",
+  seriesWeight: 2,
   name: "Transformers: Revenge of the Fallen",
   borrowed: false,
   wanted: false,
@@ -1355,6 +1451,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "under_siege-under_siege",
   series: "Under Siege",
+  seriesWeight: 1,
   name: "Under Siege",
   borrowed: false,
   wanted: false,
@@ -1362,6 +1459,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "under_siege-under_siege_2__dark_territory",
   series: "Under Siege",
+  seriesWeight: 2,
   name: "Under Siege 2: Dark Territory",
   borrowed: false,
   wanted: false,
@@ -1441,6 +1539,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "x_men-x_men_origins__wolverine",
   series: "X-Men",
+  seriesWeight: 1,
   name: "X-Men Origins: Wolverine",
   borrowed: false,
   wanted: false,
@@ -1448,6 +1547,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "x_men-x_men__days_of_future_past",
   series: "X-Men",
+  seriesWeight: 2,
   name: "X-Men: Days of Future Past",
   borrowed: false,
   wanted: false,
@@ -1455,6 +1555,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "x_men-x_men_first_class",
   series: "X-Men",
+  seriesWeight: 3,
   name: "X-Men First Class",
   borrowed: false,
   wanted: false,

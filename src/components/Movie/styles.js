@@ -40,6 +40,7 @@ export const MovieImage = styled.div`
   text-transform: uppercase;
   top: 0;
   width: 100%;
+  z-index: 1;
   
   img {
     width: 100%;
@@ -53,4 +54,18 @@ export const MovieName = styled.div`
   padding: 0 10px;
   position: absolute;
   right: 0;
+`;
+
+export const SeriesBanner = styled.div`
+  background-color: lightblue;
+  left: 0;
+  padding: 5px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2;
+  
+  &:after {
+    content: ' Series';
+  }
 `;

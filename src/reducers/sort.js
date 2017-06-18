@@ -1,7 +1,7 @@
-import { NAME_ASC } from '/constants/sort';
+import { SERIES_ASC } from '/constants/sort';
 
 const initialState = {
-  sortOption: NAME_ASC,
+  sortOption: SERIES_ASC,
 };
 
 const sort = (state = initialState, action) => {
