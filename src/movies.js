@@ -1,10 +1,17 @@
 const creationTime = 1483228800000; // 2017-01-01 GMT
 export const MOVIE_LIST = [{
+  id: "beauty-and-the-beast",
+  name: "Beauty and the Beast",
+  borrowed: true,
+  wanted: false,
+  addDate: 1499541330715,
+  // cover: 'BeautyAndTheBeast.jpg',
+}, {
   id: "x_men-logan",
   series: "X-Men",
   seriesWeight: 4,
   name: "Logan",
-  borrowed: false,
+  borrowed: true,
   wanted: false,
   addDate: 1497657600000,
   cover: 'Logan.jpg',
@@ -20,7 +27,7 @@ export const MOVIE_LIST = [{
 }, {
   id: "hacksaw_ridge",
   name: "Hacksaw Ridge",
-  borrowed: false,
+  borrowed: true,
   wanted: false,
   addDate: 1497657600000,
   cover: 'HacksawRidge.jpg',
