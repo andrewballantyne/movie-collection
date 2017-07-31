@@ -1,5 +1,32 @@
 const creationTime = 1483228800000; // 2017-01-01 GMT
 export const MOVIE_LIST = [{
+  id: 'planet_apes-rise_of_the_planet_of_the_apes',
+  name: 'Rise of the Planet of the Apes',
+  series: "Planet of the Apes",
+  seriesWeight: 1,
+  borrowed: false,
+  wanted: false,
+  addDate: 1501468887466,
+  cover: 'RiseOfThePlanetOfTheApes.jpg',
+}, {
+  id: 'planet_apes-dawn_of_the_planet_of_the_apes',
+  name: 'Dawn of the Planet of the Apes',
+  series: "Planet of the Apes",
+  seriesWeight: 2,
+  borrowed: false,
+  wanted: false,
+  addDate: 1501468887466,
+  cover: 'DawnOfThePlanetOfTheApes.jpg',
+}, {
+  id: "fast_furious-fate_of_the_furious",
+  series: "Fast & Furious",
+  seriesWeight: 7,
+  name: "The Fate of the Furious",
+  borrowed: false,
+  wanted: false,
+  addDate: 1501468887466,
+  cover: 'FateOfTheFurious.jpg'
+}, {
   id: "beauty-and-the-beast",
   name: "Beauty and the Beast",
   borrowed: true,
@@ -11,7 +38,7 @@ export const MOVIE_LIST = [{
   series: "X-Men",
   seriesWeight: 4,
   name: "Logan",
-  borrowed: true,
+  borrowed: false,
   wanted: false,
   addDate: 1497657600000,
   cover: 'Logan.jpg',
@@ -332,7 +359,7 @@ export const MOVIE_LIST = [{
   wanted: false,
   addDate: creationTime
 }, {
-  id: "fast___furious-the_fast___the_furious",
+  id: "fast_furious-the_fast___the_furious",
   series: "Fast & Furious",
   seriesWeight: 1,
   name: "The Fast & The Furious",
@@ -340,7 +367,7 @@ export const MOVIE_LIST = [{
   wanted: false,
   addDate: creationTime
 }, {
-  id: "fast___furious-2_fast_2_furious",
+  id: "fast_furious-2_fast_2_furious",
   series: "Fast & Furious",
   seriesWeight: 2,
   name: "2 Fast 2 Furious",
@@ -348,7 +375,7 @@ export const MOVIE_LIST = [{
   wanted: false,
   addDate: creationTime
 }, {
-  id: "fast___furious-the_fast___the_furious__tokyo_drift",
+  id: "fast_furious-the_fast___the_furious__tokyo_drift",
   series: "Fast & Furious",
   seriesWeight: 3,
   name: "The Fast & The Furious: Tokyo Drift",
@@ -356,7 +383,7 @@ export const MOVIE_LIST = [{
   wanted: false,
   addDate: creationTime
 }, {
-  id: "fast___furious-fast___furious",
+  id: "fast_furious-fast_furious",
   series: "Fast & Furious",
   seriesWeight: 4,
   name: "Fast & Furious",
@@ -364,7 +391,7 @@ export const MOVIE_LIST = [{
   wanted: false,
   addDate: creationTime
 }, {
-  id: "fast___furious-fast_five",
+  id: "fast_furious-fast_five",
   series: "Fast & Furious",
   seriesWeight: 5,
   name: "Fast Five",
@@ -372,7 +399,7 @@ export const MOVIE_LIST = [{
   wanted: false,
   addDate: creationTime
 }, {
-  id: "fast___furious-fast___furious_6",
+  id: "fast_furious-fast_furious_6",
   series: "Fast & Furious",
   seriesWeight: 6,
   name: "Fast & Furious 6",
